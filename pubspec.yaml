@@ -1,0 +1,87 @@
+name: food_ninja
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.1
+  firebase_auth: ^4.3.0
+  firebase_storage: ^11.0.16
+  firebase_core: ^2.8.0
+  firebase_database: ^10.0.16
+  email_otp: ^2.0.1
+  email_validator: ^2.1.17
+  flutter_spinkit: ^5.2.0
+  shared_preferences: ^2.1.0
+  file_picker: ^5.5.0
+  flutter_share: ^2.0.0
+  location: ^4.4.0
+  geocoding: ^2.1.0
+  animated_text_kit: ^4.2.2
+  camera: ^0.10.3+2
+  provider: ^6.0.5
+  getwidget: ^3.1.1
+  hooks_riverpod: ^2.4.0
+  awesome_icons: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/onboarding/
+    - assets/home/
+    - assets/resturant_dummy_logo/
+    - assets/bottom_navigation/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Viga
+      fonts:
+        - asset: fonts/Viga-Regular.ttf
+    - family: LibreFranklin
+      fonts:
+        - asset: fonts/libre_franklin/LibreFranklin-Black.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-BlackItalic.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-Bold.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-BoldItalic.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-ExtraBold.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-ExtraBoldItalic.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-ExtraLight.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-ExtraLightItalic.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-Italic.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-Light.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-LightItalic.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-Medium.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-MediumItalic.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-Regular.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-SemiBold.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-SemiBoldItalic.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-Thin.ttf
+        - asset: fonts/libre_franklin/LibreFranklin-ThinItalic.ttf
